@@ -19,6 +19,26 @@ router.get('/userlist', function(req, res){
 	});
 });
 
+/*outer.get('/search/:key', function(req, res){
+	var key = req.body.params 
+	$.ajax({
+		url = "user/userlist",
+		type = "GET",
+		data = "key",
+		success : function(data){
+			res.render('user/searchres', {user: data});
+		}
+
+	});
+
+router.get('user/userlist', function(req, res){
+
+	userModel.getByName(data, function(results){	
+		res.render('user/userlist', {user: results});
+		
+		
+	});
+});	*/
 
 router.get('/adduser', function(req, res){
 	res.render('user/adduser');
