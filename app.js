@@ -32,5 +32,5 @@ app.get('/', function(req, res){
 
 //SERVER STARTUP
 app.listen(3000, function(){
-	console.log('server started at 3000...');
+	console.log('Server started at 3000...');
 });
